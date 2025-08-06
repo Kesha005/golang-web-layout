@@ -7,7 +7,7 @@ import (
 	"go-web-layout/internal/delivery/http/handler"
 	"go-web-layout/internal/delivery/http/routes"
 	"go-web-layout/internal/infrastructure/presistence"
-	"go-web-layout/internal/pkg/db"
+	"go-web-layout/internal/db"
 	"log"
 
 	"github.com/gin-gonic/gin"
