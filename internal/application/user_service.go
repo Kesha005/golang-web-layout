@@ -9,9 +9,9 @@ type UserService struct{
 
 
 
-func NewUserService(userrepo *domain.UserRepository)*UserService{
+func NewUserService(userrepo domain.UserRepository)*UserService{
 	return &UserService{
-		Repo: userrepo,
+		Repo: &userrepo,
 	}
 }
 

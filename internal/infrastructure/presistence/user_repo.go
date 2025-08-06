@@ -21,7 +21,7 @@ func NewGormUserRepository(Db *gorm.DB)*GormUserRepository{
 
 
 
-func (gm *GormUserRepository)GetById(Is string)(*domain.User,error){
+func (gm *GormUserRepository)GetById(Id string)(*domain.User,error){
 	return nil,nil
 }
 
