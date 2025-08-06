@@ -1,0 +1,52 @@
+# binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# test binaries
+*.test
+
+# 
+/bin/
+/build/
+/dist/
+
+# caches
+*.out
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# go modules cache
+vendor/
+*.modcache
+
+# ---> OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# ---> Environment & configs
+.env
+.env.local
+.env.*.local
+
+# keys
+*.pem
+*.key
+*.crt
+
+# ---> Logs
+/logs/
+*.log
+
+# ---> Database
+*.db
+*.sqlite
+dump.sql
